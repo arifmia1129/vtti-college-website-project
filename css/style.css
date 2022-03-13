@@ -21,3 +21,11 @@ body{
     padding: 10px;
     border-radius: 10px;
 }
+
+#marquee-text{
+    background-color: rgb(65, 141, 65);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
