@@ -29,3 +29,60 @@ body{
     border-radius: 10px;
     font-weight: 800;
 }
+
+
+#info h3{
+    background-color: rgb(51, 122, 51);
+   font-family: 'Poppins', sans-serif;
+   font-weight: 800;
+   color: white;
+   padding: 10px;
+   border-left: 5px solid red;
+}
+
+#info p{
+    border: 2px solid gray;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+#full-info h3{
+    background-color: rgb(51, 122, 51);
+   font-weight: 800;
+   color: white;
+   padding: 10px;
+   border-left: 5px solid red;
+}
+
+#full-info p{
+    border: 2px solid gray;
+    padding: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#small-title{
+    border-left: 2px solid rgb(236, 55, 55);
+    border-right: 2px solid rgb(236, 55, 55);
+    border-radius: 10px;
+    display: none;
+}
+#large-title{
+    border-left: 50px solid rgb(236, 55, 55);
+    border-right: 50px solid rgb(236, 55, 55);
+    border-radius: 50px;
+    display: none;
+}
+
+@media(max-width:576px) {
+    #small-title{
+        display: block;
+    }
+}
+
+@media(min-width:576px) {
+    #large-title{
+        display: block;
+    }
+}
