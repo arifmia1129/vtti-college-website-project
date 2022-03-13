@@ -1,2 +1,18 @@
 /* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+/* Upper part */
+#upper{
+    background-image: url("/images/pic-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#name{
+    background-color: rgba(2, 2, 2, 0.8);
+}
+
+#title{
+    float: left;
+}
