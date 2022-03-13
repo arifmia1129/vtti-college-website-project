@@ -86,3 +86,19 @@ body{
         display: block;
     }
 }
+
+#corona-btn{
+    text-decoration: none;
+}
+
+#notice a{
+    text-decoration: none;
+}
+#notice button{
+    float: right;
+}
+
+#notice{
+    border: 2px solid gray;
+    padding: 10px;
+}
