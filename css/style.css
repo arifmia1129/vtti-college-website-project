@@ -54,7 +54,21 @@ body{
    padding: 10px;
    border-left: 5px solid red;
 }
+.same-design h3{
+    background-color: rgb(51, 122, 51);
+   font-weight: 800;
+   color: white;
+   padding: 10px;
+   border-left: 5px solid red;
+}
+.same-design{
+    border: 2px solid gray;
+}
 
+
+#important-link a{
+    text-decoration: none;
+}
 #full-info p{
     border: 2px solid gray;
     padding: 50px;
