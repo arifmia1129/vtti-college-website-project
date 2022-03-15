@@ -120,3 +120,7 @@ body{
 #lower-part a{
     text-decoration: none;
 }
+
+#result-row>*{
+    padding: 0;
+}
